@@ -1,3 +1,6 @@
 [submodule "GETAXI1"]
 	path = GETAXI1
 	url = https://github.com/ElanaFelsi/GETAXI1
+[submodule "GETAXI"]
+	path = GETAXI
+	url = https://github.com/ElanaFelsi/GETAXI

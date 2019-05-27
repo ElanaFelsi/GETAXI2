@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1733cf</color>
+
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#ffffff</color>
+
+    //region iconsColours
+    <color name="primary">#32bace</color>
+    <color name="primary_darker">#297B87</color>
+    <color name="primary_dark">#059097</color>
+    <color name="iconAquamarine">#52C4A4</color>
+    <color name="iconVeryDarkGrey">#3D3E4D</color>
+    <color name="iconDarkGrey">#525564</color>
+    <color name="iconGreyGreen">#6B8687</color>
+    <color name="iconEggYellow">#F7FAC5</color>
+    <color name="iconBodyColour">#F6D698</color>
+    <color name="iconLightYellow">#F9D500</color>
+    <color name="iconMudYellow">#A07E1D</color>
+    <color name="iconPurpleBrown">#9C7972</color>
+    <color name="transparent">#00ffffff</color>
+    //endregion
+
+    <color name="green">#FF99CC00</color>
+    <color name="yellow">#ffffcc</color>
+    <color name="red">#FFFF4444</color>
+    <integer-array name="androidcolors">
+        <item>@color/green</item>
+        <item>@color/yellow</item>
+        <item>@color/red</item>
+    </integer-array>
+
+</resources>

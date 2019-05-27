@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/availableTrips"
+            android:icon="@drawable/stoptaxi"
+            android:title="Available Trips" />
+        <item
+            android:id="@+id/myTrips"
+            android:icon="@drawable/myhistory"
+            android:title="My trip history" />
+        <item
+            android:id="@+id/signOut"
+            android:icon="@drawable/exit"
+            android:title="SIGN OUT" />
+        <item
+
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Change settings" />
+    </group>
+
+
+    <item android:title="TELL US WHAT YOU THINK">
+        <menu>
+            <item
+                android:id="@+id/nav_improve"
+                android:title="Help Improve the App" />
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate the App" />
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

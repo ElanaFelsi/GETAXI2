@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Android2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_driver_menu">DriverMenu</string>
+    <string name="sent_sms">Sent SMS</string>
+    <string name="sms_body_come">I am coming to take you from:</string>
+    <string name="smsto">smsto:</string>
+    <string name="sms_body">sms_body</string>
+    <string name="New_drive_received">New trip received</string>
+    <string name="notification_text_new_drive">Added a new trip.</string>
+    <string name="big_text">You can launch the application and start driving</string>
+
+
+    <string name="your_drives">Your drives:</string>
+    <string name="there_are_no_drives">There are no drives</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="finishTime">Time had not been set yet</string>
+
+    <string-array name="FilterSpinner1">
+        <item>all</item>
+        <item>by city</item>
+        <item>by distance</item>
+    </string-array>
+
+    <string-array name="FilterSpinner2">
+        <item>all</item>
+        <item>by distance</item>
+    </string-array>
+
+
+    <string name="expand_button_text">Expand</string>
+    <string name="change_filter_text">Change Filter</string>
+    <string name="dropOffTime">Time had not been set yet</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember me</string>
+
+    <string name="New_ride_received">New rides received</string>
+    <string name="notification_text_new_ride">You have new relevant rides</string>
+
+</resources>

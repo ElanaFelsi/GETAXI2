@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    tools:context="control.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <SearchView
+                android:id="@+id/tripsSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--
+
+            <Spinner
+                android:id="@+id/filter1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:entries="@array/FilterSpinner1"
+                android:padding="12dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/filterButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:padding="12dp"
+                android:background="#FFFFCC"
+                android:textColor="@color/black"
+                android:text="Change Filter" />
+                -->
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/firstRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="492dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
